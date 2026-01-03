@@ -3,7 +3,7 @@ name: Build and Publish Image to DockerHub
 on:
   push:
     branches:
-      - main
+      - master
       paths:
         - 'api/Dockerfile'
         - 'front-end-nextjs/Dockerfile'
