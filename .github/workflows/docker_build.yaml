@@ -12,7 +12,6 @@ on:
           run: docker build ./api/ -t kgroy107/devops-qr-code-backend:latest
         -name: push image to docker
          run: |
-            
             docker push kgroy107/devops-qr-code-backend:latest 
 
 
