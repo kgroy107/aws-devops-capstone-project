@@ -15,4 +15,5 @@ jobs:
 
       - name: Push Image to Docker
         run: |
+          docker login -u kgroy107 -p ${{ secrets.DOCKER_HUB_TOKEN }}
           docker push kgroy107/devops-qr-code-backend:latest
